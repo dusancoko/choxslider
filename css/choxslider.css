@@ -1,0 +1,50 @@
+/* Required CSS - modify it for your design */
+.choxslider .item {
+    display: none;
+}
+
+.choxslider .visible {
+    display: block;
+}
+
+/* Optional CSS - Styling for the demo */
+.choxslider {
+    min-width: 500px;
+    min-height: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.choxslider picture, .choxslider img {
+    max-width: 500px;
+    min-height: 400px;
+}
+
+.choxslider .previous, .choxslider .next {
+    position: absolute;
+    top: calc(50% - 50px);
+    border-style: solid;
+}
+
+.choxslider .previous {
+    left: 5px;
+    border-width: 50px 25px 50px 0;
+    border-color: transparent rgba(105, 116, 128, 0.70) transparent transparent;
+}
+
+.choxslider .next {
+    right: 5px;
+    border-width: 50px 0 50px 25px;
+    border-color: transparent transparent transparent rgba(105, 116, 128, 0.70);
+}
+
+.choxslider .fadein {
+    animation-name: fadeIn;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

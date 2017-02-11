@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choxslider - Typescript based slider</title>
+    <link rel="stylesheet" href="css/choxslider.css">
+</head>
+<body>
+    <div class="choxslider">
+        <picture class="item">
+            <source srcset="images/students1.jpg" media="(min-width: 640px)">
+            <img src="images/students1.jpg">
+        </picture>
+        <picture class="item">
+            <source srcset="images/students2.jpg" media="(min-width: 640px)">
+            <img src="images/students2.jpg">
+        </picture>
+        <picture class="item">
+            <source srcset="images/students3.jpg" media="(min-width: 640px)">
+            <img src="images/students3.jpg">
+        </picture>
+        <div class="previous"></div>
+        <div class="next"></div>
+    </div>
+</body>
+<script src="js/ChoxSlider.js"></script>
+<script>
+    var responsiveSlider = new ChoxSlider(".choxslider");
+</script>
+</html>
