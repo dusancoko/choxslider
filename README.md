@@ -10,4 +10,4 @@ Image slider written in Typescript.
 
 new ChoxSlider(_CSS selector_);
 
-This will initialize the slider root element which will search all children elements with 'item' class. Also element will search elements with class 'previous' and 'next'
+This will initialize the slider root element which will search for all children elements with 'item' class. Also element will also search for children elements with class 'previous' and 'next'
