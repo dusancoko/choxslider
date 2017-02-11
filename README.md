@@ -3,7 +3,7 @@ Image slider written in Typescript.
 
 #### Usage
 **Requirements:**
- * Every image element has to have class 'item'. In your CSS 'display' should be set to 'none'.
+ * Every image element has to have class 'item'. Their CSS setting 'display' should be set to 'none'.
  * There should be two elements which have classes 'previous' and 'next' respectfully
  
 **Initialization**
